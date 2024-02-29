@@ -4,21 +4,19 @@ import SMSMessageButtonUI from "../SMSMessageButton.presenter";
 
 import CoolsmsMessageService from "coolsms-node-sdk";
 import { SMSMessageData } from "../../../../commons/store";
+import { ApiOne, ApiTwo, SendFrom, SendTo } from "../SMSButtonSetting";
 
 export default function SMSMessageSendButton(props: ISMSMessageButton) {
   const [RecoilSMSMessageData, SetSMSMessageData] =
     useRecoilState(SMSMessageData);
 
   const token = String(Math.floor(Math.random() * 10 ** 6)).padStart(6, "0"); //토큰발급
-  const messageService = new CoolsmsMessageService(
-    "NCSFRQUS0QTCAX6A",
-    "H6FZW1SRYLYUO7FXINVOPFRMLJZVBXJI"
-  );
+  const messageService = new CoolsmsMessageService(ApiOne, ApiTwo);
 
   const MessageSendOne = async () => {
     const result = await messageService.sendOne({
-      to: "01020145275",
-      from: "01020145275",
+      to: SendTo,
+      from: SendFrom,
       text: `인증번호는 ${token} 입니다.`,
       autoTypeDetect: true,
     });
