@@ -1,5 +1,5 @@
 import { WithAuth } from "../src/commons/hocs/withAuth";
-import BoardListPage from "../src/components/units/board/list/BoardList.container";
+// import BoardListPage from "../src/components/units/board/list/BoardList.container";
 import Main from "./Main";
 
 // function MainPage() {
