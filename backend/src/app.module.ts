@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
 import { GraphQLModule } from "@nestjs/graphql";
-import { BoardsModule } from "./APIS/boards/boards.module";
+import { FreeBoardsModule } from "./APIS/FreeBoards/FreeBoards.module";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { TypeOrmModule } from "@nestjs/typeorm";
@@ -21,7 +21,7 @@ ConfigModule;
 //  합치는 용도
 @Module({
   imports: [
-    BoardsModule,
+    FreeBoardsModule,
     FilesModule,
     ProductsModule,
     ProductsCategoriesModule,
