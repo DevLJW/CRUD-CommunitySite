@@ -27,7 +27,6 @@ export default function SMSMessageSendButton(props: ISMSMessageButton) {
   const SMSMessageSendButtonOnclick = async () => {
     const MessageSendOneData = await MessageSendOne();
     SetSMSMessageData(MessageSendOneData);
-    console.log(SMSMessageData);
   };
   return (
     <SMSMessageButtonUI
