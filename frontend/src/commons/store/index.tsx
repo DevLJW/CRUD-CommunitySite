@@ -1,10 +1,7 @@
 import { atom, atomFamily, selector } from "recoil";
 
-import { useEffect } from "react";
 import { SingleMessageSentResponse } from "coolsms-node-sdk";
-import { FETCH_FREE_BOARDS } from "../../components/NoticeBoardComponents/FreeBoardComponents/Table/Table.queries";
-import { graphql } from "graphql";
-import { graphQLSelector } from "recoil-relay";
+import { recoilPersist } from "recoil-persist";
 type MessageType =
   | "SMS"
   | "LMS"
@@ -26,7 +23,7 @@ declare const window: typeof globalThis & {
 // type IBaskets = Array<
 //   Pick<IBoard, "contents" | "title" | "_id" | "writer" | "createdAt">
 // >;
-
+const { persistAtom } = recoilPersist();
 export const accessTokenState = atom({
   key: "accessTokenState",
   default: "",
@@ -65,4 +62,10 @@ export const SMSMessageData = atom<SingleMessageSentResponse>({
 export const SMSMessageDataGet = selector({
   key: "SMSMessageDataGet",
   get: ({ get }) => get(SMSMessageData),
+});
+
+export const BoardIdState = atom({
+  key: "BoardIdState",
+  default: "",
+  effects_UNSTABLE: [persistAtom],
 });
