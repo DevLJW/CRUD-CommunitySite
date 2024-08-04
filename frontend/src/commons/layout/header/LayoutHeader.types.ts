@@ -10,5 +10,5 @@ export interface ILayoutHeaderUI {
   onClickMoveToFreeBoard: () => void;
   onClickMoveToMarket: () => void;
   onClickMoveToannouncement: () => void;
-  UserInfoData: Pick<IQuery, "fetchUserLoggedIn"> | undefined;
+  // UserInfoData: Pick<IQuery, "fetchUserLoggedIn"> | undefined;
 }
