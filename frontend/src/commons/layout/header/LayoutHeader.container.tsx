@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import LayoutHeaderUI from "./LayoutHeader.presenter";
 import { useQuery } from "@apollo/client";
 import { IQuery } from "../../types/generated/types";
-import { FETCH_USER_LOGGED_IN } from "../../../components/units/board/list/BoardListqueries";
 
 export default function LayoutHeader(props: any) {
   const router = useRouter();
@@ -32,8 +31,6 @@ export default function LayoutHeader(props: any) {
   const onClickMoveToannouncement = () => {
     router.push("/announcement");
   };
-
-  const { data } = useQuery(FETCH_USER_LOGGED_IN);
 
   return (
     <LayoutHeaderUI

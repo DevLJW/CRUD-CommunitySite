@@ -8,7 +8,7 @@ import {
 import {
   FETCH_FREE_BOARDS,
   FETCH_FREE_BOARDS_COUNTS,
-} from "../../../../NoticeBoardComponents/FreeBoardComponents/Table/Table.queries";
+} from "../../../../FreeBoardBoardComponents/FreeBoardComponents/Table/Table.queries";
 import { useEffect } from "react";
 import { CREATE_VIEWS } from "./FreeBoardList.queries";
 
