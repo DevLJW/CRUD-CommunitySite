@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## CRUD기반 커뮤니티 사이트
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](http://naver.me/5tJL2eV2)
 
 <h3>개발동기</h3>
 사용자들끼리 서로 소통이 가능한 CRUD 기반 커뮤니티 사이트를 제작 했습니다.<br>
