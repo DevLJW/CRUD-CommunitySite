@@ -40,7 +40,8 @@
 <!-- ABOUT THE PROJECT -->
 ## CRUD기반 커뮤니티 사이트
 ![소통 메인](https://github.com/user-attachments/assets/67f6d109-1ada-4e96-b67f-13e7ee75270f)
-<br><br>
+<br>
+
 
   
 ## 개발동기
@@ -96,7 +97,17 @@
 
 ## 주요기능소개
 ### 1. 회원가입
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+ <img src="https://github.com/user-attachments/assets/089e63cb-d3f5-4584-a6fd-2e3500c0484d" width="80%" height="60%">
+ <br><br><br>
+회원가입 필드는, 이메일,이름,닉네임,패스워드,패스워드 확인,연락처 인증번호 확인란으로 구성이 되어 있습니다.<br>
+Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 최소화 시키고, 실시간 동기화를 하기 위하여 사용 했습니다.<br>
+인증 메세지 같은경우, Cool-SMS API를 사용 했습니다.<br>
+회원가입 성공 시, JOIN_USER API를 호출하여 입력받은 값을 TypeOrm을 통하여 DB에 저장시킵니다.<br>
+패스워드 같은 경우, 라이브러리를 통하여 암호화 시킨 후 DB에 저장 합니다.
+
+
+
+
 
 <br>
 
