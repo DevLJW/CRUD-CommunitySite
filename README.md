@@ -39,23 +39,69 @@
 
 <!-- ABOUT THE PROJECT -->
 ## CRUD기반 커뮤니티 사이트
-
 ![소통 메인](https://github.com/user-attachments/assets/67f6d109-1ada-4e96-b67f-13e7ee75270f)
+<br><br>
 
-
-
-<h3>개발동기</h3>
+  
+## 개발동기
 사용자들끼리 서로 소통이 가능한 CRUD 기반 커뮤니티 사이트를 제작 했습니다.<br>
 대부분의 사이트들에 있는 게시판,회원가입,로그인 기능들을 Front,Backend,DB를 학습해보고<br>
 1인 개발에 적절한 범위라고 생각하여 개발을 하게 되었습니다.
 <br>
 <br>
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+## 개발기간
+2024.01.10 ~ 2024.03.10
+<br>
+<br>
 
+
+## 역할:
+* 1인개발
+* 프론트엔드
+* 백엔드
+* 데이터 베이스 설계
+<br>
+
+
+
+## 기술 스택
+### FrontEnd
+<div>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+<img src="https://img.shields.io/badge/ReactHookForm-EC5990?style=for-the-badge&logo=ReactHookForm&logoColor=black">
+<img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=Recoil&logoColor=black">
+<img src="https://img.shields.io/badge/Emotion-EC5990?style=for-the-badge&logo=Emotion&logoColor=black">
+</div>
+
+### BackEnd
+<div>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=NestJS&logoColor=black">
+</div>
+
+### DataBase
+<div>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black">
+<img src="https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=TypeORM&logoColor=black">
+</div>
+
+### API
+<div>
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=GraphQL&logoColor=black">
+</div>
+
+<br>
+<br>
+
+## 주요기능소개
+### 1. 회원가입
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
+<br>
+<br>
+
+### 2. 로그인
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
 Use the `BLANK_README.md` to get started.
