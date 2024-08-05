@@ -40,7 +40,9 @@
 <!-- ABOUT THE PROJECT -->
 ## CRUD기반 커뮤니티 사이트
 
-![image](http://naver.me/5tJL2eV2)
+![소통 메인](https://github.com/user-attachments/assets/67f6d109-1ada-4e96-b67f-13e7ee75270f)
+
+
 
 <h3>개발동기</h3>
 사용자들끼리 서로 소통이 가능한 CRUD 기반 커뮤니티 사이트를 제작 했습니다.<br>
