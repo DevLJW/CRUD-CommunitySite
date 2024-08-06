@@ -113,10 +113,12 @@ Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 �
 
 
 ### 2. 로그인
+ <img src="https://github.com/user-attachments/assets/890ca0dc-cd72-45b4-be05-fd2373b08c3f" width="80%" height="60%">
+  <br><br><br>
 로그인 필드는 이메일,패스워드 필드란으로 구성이 되어있고, React-Hook_Form으로 구성 했습니다.<br>
 입력한 데이터가 DB의 데이터와 일치하면, 로그인이 성공 합니다.<br>
 패스워드 같은경우 백엔드에서 복호화를 통하여 입력한 패스워드와 DB의 패스워드와 일치한지 비교 합니다.<br>
-로그인 성공 시, 사용자에게 AccessToken을 부여하며 로컬스토리지에 저장 합니다. 부여받은 AccessToken을 통해 인가를 받게 됩니다.
+로그인 성공 시, 사용자에게 AccessToken을 부여하며 글로벌 스테이트 인 Recoil에 저장 합니다. 부여받은 AccessToken을 통해 인가를 받게 됩니다.
 현재는 로그인 시, AccessToken을 부여하는 방식 이지만, 추후 RefreshToken을 추가하여 AccessToken 만료시, RefreshToken을 통하여 재발급 예정 입니다.
 
 
