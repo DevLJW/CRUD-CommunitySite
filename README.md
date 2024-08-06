@@ -138,7 +138,7 @@ Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 �
 <br><br>
 
 ### 4. 게시글 상세보기
- <img src="https://github.com/user-attachments/assets/1f05ce1e-5e61-4784-988b-53d489bcf132" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/1f05ce1e-5e61-4784-988b-53d489bcf132" width="100%" height="60%">
   <br><br><br>
 
 
@@ -150,7 +150,7 @@ Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 �
 <br><br>
 
 ### 5. 게시글 수정하기
- <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
   <br><br><br>
 
 게시글 수정하기는 게시글 상세화면에서 클릭한 게시글의 ID를 백엔드 API에 파라미터로 넘겨<br> 해당 게시글의 정보를 가져와 화면에 출력 합니다.<br>
@@ -165,11 +165,12 @@ Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 �
 <br><br>
 
 ### 7. 페이징 네이션
- <img src="https://github.com/user-attachments/assets/d30e8825-d1fc-42dc-a7a6-2fe814a5662b" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/ce895209-a1fa-485d-8033-40f67e585156" width="100%" height="100%">
   <br><br><br>
 게시글 삭제하기는 게시글 상세화면에서 클릭한 게시글의 ID를 백엔드 API에 파라미터로 넘겨 해당 게시글을 삭제 합니다.<br>
 삭제 시, 리렌더가 적용되어 게시글 리스트 페이지 화면에 바로 업데이트 됩니다.
 <br><br>
+
 
 
 
