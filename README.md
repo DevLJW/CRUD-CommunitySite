@@ -74,7 +74,7 @@
 
 ## 주요기능소개
 ### 1. 회원가입
- <img src="https://github.com/user-attachments/assets/089e63cb-d3f5-4584-a6fd-2e3500c0484d" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/089e63cb-d3f5-4584-a6fd-2e3500c0484d" width="100%" height="60%">
  <br><br><br>
 회원가입 필드는, 이메일,이름,닉네임,패스워드,패스워드 확인,연락처 인증번호 확인란으로 구성이 되어 있습니다.<br>
 Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 최소화 시키고, 실시간 동기화를 하기 위하여 사용 했습니다.<br>
@@ -90,7 +90,7 @@ Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 �
 
 
 ### 2. 로그인
- <img src="https://github.com/user-attachments/assets/890ca0dc-cd72-45b4-be05-fd2373b08c3f" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/890ca0dc-cd72-45b4-be05-fd2373b08c3f" width="100%" height="60%">
   <br><br><br>
 로그인 필드는 이메일,패스워드 필드란으로 구성이 되어있고, React-Hook_Form으로 구성 했습니다.<br>
 입력한 데이터가 DB의 데이터와 일치하면, 로그인이 성공 합니다.<br>
