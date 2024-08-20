@@ -13,9 +13,10 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## CRUD기반 커뮤니티 사이트
-![소통 메인](https://github.com/user-attachments/assets/67f6d109-1ada-4e96-b67f-13e7ee75270f)
+![소통 메인](https://github.com/user-attachments/assets/6a8c83e5-5d15-4c99-9999-1c4591956306)
 <br>
 
 
